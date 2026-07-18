@@ -1,6 +1,9 @@
 import streamlit as st
 import pickle
 import pandas as pd
+import joblib
+pipe = joblib.load("pipe-2.pkl")
+
 
 teams = ['Sunrisers Hyderabad',
  'Mumbai Indians',
